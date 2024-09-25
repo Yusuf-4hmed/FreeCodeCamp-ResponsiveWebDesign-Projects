@@ -1,2 +1,4 @@
-# FreeCodeCamp-Projects
-Projects from by project based learning at FreeCodeCamp
+# FreeCodeCamp-Projects 👨‍💻
+
+Projects from my project based learning at FreeCodeCamp's "Responsive Web Design" course.
+
