@@ -1,0 +1,59 @@
+* {
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+
+#navbar {
+  background-color: lightgrey;
+  position: fixed;
+  min-width: 290px;
+  left: 0;
+  top: 0;
+  width: 300px;
+  height: 100%;
+}
+
+#navbar ul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  color: #4d4e53;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+header {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 815px) {
+
+  #navbar {
+  background-color: lightblue;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  max-height: 275;
+}
+
+  #main-doc {
+  position: relative;
+  margin-left: 0px;
+  margin-top: 270px;
+}
+}
